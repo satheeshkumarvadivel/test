@@ -12,7 +12,7 @@ public class HelloResource {
 	}
 	
 	@GetMapping("/hi")
-	public String sayHi() {
-		return "hi";
+	public String sayDifferentHi() {
+		return "hiii..";
 	}
 }
