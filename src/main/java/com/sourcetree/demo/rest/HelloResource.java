@@ -15,4 +15,10 @@ public class HelloResource {
 	public String sayDifferentHi() {
 		return "hiii..";
 	}
+	
+	@GetMapping("/test")
+	public String sayTest() {
+		return "test";
+	}
+	
 }
