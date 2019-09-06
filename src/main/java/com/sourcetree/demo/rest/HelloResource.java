@@ -11,6 +11,11 @@ public class HelloResource {
 		return "hello world!!!";
 	}
 	
+	@GetMapping("/hi")
+	public String sayDifferentHi() {
+		return "hiii..";
+	}
+	
 	@GetMapping("/test")
 	public String sayTest() {
 		return "test";
