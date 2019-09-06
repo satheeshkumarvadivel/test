@@ -10,4 +10,10 @@ public class HelloResource {
 	public String sayHello() {
 		return "hello world!!!";
 	}
+	
+	@GetMapping("/test")
+	public String sayTest() {
+		return "test";
+	}
+	
 }
